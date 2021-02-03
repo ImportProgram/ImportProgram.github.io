@@ -93,7 +93,14 @@ const Index = (props) => {
                 </div>
                 </div>
             </article>
-
+            <script src="https://utteranc.es/client.js"
+                    repo={props.config.utterances_repo}
+                    issue-term="pathname"
+                    label="Comment"
+                    theme="preferred-color-scheme"
+                    crossorigin="anonymous"
+                    async>
+            </script>
             
         </div>
     ];
