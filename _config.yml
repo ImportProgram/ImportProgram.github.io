@@ -109,7 +109,10 @@ theme: nexo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-    type: ""
+  type: git
+  repo: https://github.com/ImportProgram/ImportProgram.github.io
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: gh-pages
 
 search:
     path: search.json
