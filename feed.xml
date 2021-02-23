@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Brendan&#39;s Blog</title>
+  <icon>https://importprogram.me/ip.png</icon>
+  
+  <link href="https://importprogram.me/feed.xml" rel="self"/>
+  
+  <link href="https://importprogram.me/"/>
+  <updated>2021-02-10T21:05:34.813Z</updated>
+  <id>https://importprogram.me/</id>
+  
+  <author>
+    <name>ImportProgram</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Deploying PHP and MySQL to Azure [free tier]</title>
+    <link href="https://importprogram.me/blog/deploying-php-and-mysql-to-azure/"/>
+    <id>https://importprogram.me/blog/deploying-php-and-mysql-to-azure/</id>
+    <published>2021-02-10T05:00:00.000Z</published>
+    <updated>2021-02-10T21:05:34.813Z</updated>
+    
+    <content type="html"><![CDATA[<p>This post will go over the steps of deploying PHP to Azure using an App Service. Also the MySQL In App will be enabled. This environment should only be used for development purposes only.</p><h2 id="Why-use-Azure">Why use Azure?</h2><p>With PHP being a backbone to small development or just for learning, finding free places to host is huge. Though with that said, many bank on the simplicity of <strong>000webhost</strong> or other free providers. Even though simplicity is great, stability is a major factor. This will guide you on how to install PHP 7.4, enabling MySQL, securely installing phpMyAdmin on a free tier of Azure’s App Service.</p><h2 id="Accessing-Azure">Accessing Azure</h2><p>To access Azure go to: <a href="https://portal.azure.com">portal.azure.com</a>. You will need to sign in via a Microsoft Account.</p><blockquote><p>If you are a new user to Azure, they may introduce you to their platform. You can either skip or read about the platform.</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;This post will go over the steps of deploying PHP to Azure using an App Service. Also the MySQL In App will be enabled. This environment </summary>
+      
+    
+    
+    
+    
+    <category term="Azure" scheme="https://importprogram.me/tags/Azure/"/>
+    
+    <category term="PHP" scheme="https://importprogram.me/tags/PHP/"/>
+    
+    <category term="MySQL/MariaDB" scheme="https://importprogram.me/tags/MySQL-MariaDB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>This New Blog</title>
+    <link href="https://importprogram.me/blog/this-new-blog/"/>
+    <id>https://importprogram.me/blog/this-new-blog/</id>
+    <published>2021-01-20T22:38:47.306Z</published>
+    <updated>2021-02-03T03:30:13.499Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is the start to my new blog! I will probably post mostly programming projects.<br>I may talk about:</p><ul><li>Discord bots?</li><li>Lots of web development!</li><li>Software and related?</li><li>Linux things?</li><li>And probaly other things, who knows 🤷</li></ul><p>Anyways, I’m cutting this one short. So hopefully let’s start to a wonderful 2021!</p><p><strong>Brendan</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;This is the start to my new blog! I will probably post mostly programming projects.&lt;br&gt;
+I may talk about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Discord bots?&lt;/li&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="Example" scheme="https://importprogram.me/tags/Example/"/>
+    
+    <category term="JavaScript" scheme="https://importprogram.me/tags/JavaScript/"/>
+    
+  </entry>
+  
+</feed>
