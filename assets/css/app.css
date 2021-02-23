@@ -66,6 +66,10 @@ body {
       color: inherit;
     }
 
+.post .post-content {
+    padding-top: 10px !important;
+  }
+
 .post .post-content a,
         .post .post-content a:active,
         .post .post-content a:hover,
@@ -80,12 +84,17 @@ body {
     }
 
 .post .post-footer {
-    color: black !important;
+    margin-top: 10px;
   }
 
-.post .post-footer a {
-      text-decoration: none;
-    }
+.post .post-footer a:hover {
+        text-decoration: underline;
+      }
+
+.post .post-footer {
+    margin-bottom: 20px !important;
+    padding-bottom: 30px;
+}
 
 p {
   text-rendering: optimizelegibility;
@@ -144,6 +153,11 @@ h6 {
   font-size: 1rem !important;
 }
 
+blockquote {
+  border-left: 3px solid gray;
+  padding: 0.1em 15px;
+}
+
 .content {
   max-width: 750px;
   padding-bottom: 50px;
@@ -177,6 +191,11 @@ h6 {
             margin-inline-end: 0px;
     -webkit-padding-start: 40px;
             padding-inline-start: 40px;
+  }
+
+.content img {
+    max-width:100%;
+    max-height:100%;
   }
 
 .nav-sidebar {
@@ -455,7 +474,7 @@ table tr:nth-child(2n) {
     }
 
   .post-footer {
-    margin-top: 30px;
+    margin-top: 10px;
   }
     .post-footer a {
       text-decoration: none;
@@ -464,6 +483,9 @@ table tr:nth-child(2n) {
       .post-footer a:hover {
         text-decoration: underline;
       }
+    .post-footer {
+    margin-bottom: 20px !important;
+  }
     .post-list a {
       text-decoration: underline;
       color: whitesmoke !important;
