@@ -80,17 +80,17 @@ const Index = (props) => {
                     />
                 </div>
                 <div className="post-footer">
-                <div style={{ float: "left" }}>
-                    {page.next != null && (
-                        <a href={"/" + page.next.path}><span style={{fontSize: 23}}>&#8249;</span> {page.next.title}</a>
-                    )}
-                </div>
-            
-                <div style={{ float: "right" }}>
-                    {page.prev != null && (
-                        <a href={"/" + page.prev.path}>{page.prev.title} <span style={{fontSize: 23}}>&#8250;</span></a>
-                    )}
-                </div>
+                    <div style={{ float: "left" }}>
+                        {page.next != null && (
+                            <a href={"/" + page.next.path}><span style={{fontSize: 23}}>&#8249;</span> {page.next.title}</a>
+                        )}
+                    </div>
+                
+                    <div style={{ float: "right" }}>
+                        {page.prev != null && (
+                            <a href={"/" + page.prev.path}>{page.prev.title} <span style={{fontSize: 23}}>&#8250;</span></a>
+                        )}
+                    </div>
                 </div>
             </article>
             <script src="https://utteranc.es/client.js"
@@ -98,7 +98,7 @@ const Index = (props) => {
                     issue-term="pathname"
                     label="Comment"
                     theme="preferred-color-scheme"
-                    crossorigin="anonymous"
+                    crossOrigin="anonymous"
                     async>
             </script>
             

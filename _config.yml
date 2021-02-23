@@ -18,19 +18,18 @@ social_names:
     - Twitch
     - YouTube
 
+#Links to the social names
 social_links:
     - https://github.com/ImportProgram
     - https://twitter.com/ImportProgram
     - https://twitch.com/ImportProgram
     - https://www.youtube.com/channel/UCKFqjKcFpKf9vzBlwvsRApA
 
-
-# Footer
+# The main site footer
 site_copyright: Copyright © 2021 Brendan Fuller
 
-# Comment Repository
+# Comment Repository for utterances
 utterances_repo: ImportProgram/ImportProgram.github.io
-
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -62,7 +61,7 @@ external_link:
     exclude: ""
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -119,11 +118,25 @@ deploy:
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
 
+
+
+# Search JSON (currently no search actually implmented)
+# Could be used for bots if needed
 search:
     path: search.json
     field: post
     content: true
     format: html
+
+# RSS Feed
+feed:
+  enable: true
+  type: atom
+  path: feed.xml
+  icon: /ip.png
+  autodiscovery: true
+
+
 markdown:
     render:
         html: true
